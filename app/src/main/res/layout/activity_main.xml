@@ -1,0 +1,108 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRADE 1: "
+        android:textSize="50px"
+        android:layout_marginTop="200px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRADE 2: "
+        android:textSize="50px"
+        android:layout_marginTop="350px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRADE 3: "
+        android:textSize="50px"
+        android:layout_marginTop="500px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRADE 4: "
+        android:textSize="50px"
+        android:layout_marginTop="650px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRADE 5: "
+        android:textSize="50px"
+        android:layout_marginTop="800px"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105px"
+        android:layout_marginTop="950px"
+        android:text="GPA: "
+        android:textSize="50px" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/g1input"
+        android:layout_marginTop="200px"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/g2input"
+        android:layout_marginTop="350px"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/g3input"
+        android:layout_marginTop="500px"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/g4input"
+        android:layout_marginTop="650px"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/g5input"
+        android:layout_marginTop="800px"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="950px"
+        android:textSize="40px"
+        android:textAlignment="center"
+        android:id="@+id/gpa"/>
+    <Button
+        android:layout_width="600px"
+        android:layout_height="200px"
+        android:text="Compute GPA"
+        android:textSize="40px"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1100px"
+        android:id="@+id/compute"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your grade in 00.00 format"
+        android:textSize="50px"
+        android:layout_marginTop="1400px"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
